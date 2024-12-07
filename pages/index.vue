@@ -24,7 +24,7 @@
           </NuxtLink>
           <NuxtLink
             to="/animals"
-            class="bg-orange-400 text-white px-6 py-3 rounded-sm text-sm hover:bg-white hover:text-black font-bold transition-colors"
+            class="bg-orange-500 text-white px-6 py-3 rounded-sm text-sm hover:bg-white hover:text-black font-bold transition-colors"
           >
             SEARCH ANIMALS
           </NuxtLink>
@@ -45,7 +45,7 @@
             <img
               :src="category.image"
               alt="animal image"
-              class="h-30 w-full rounded-lg"
+              class="h-48 w-full rounded-lg object-cover"
             />
           </div>
           <div class="p-6">
@@ -59,7 +59,7 @@
             </p>
             <NuxtLink
               :to="category.link"
-              class="block w-full text-center bg-transparent text-white py-2 rounded underline decoration-1 transition-colors header-p"
+              class="block w-full text-center bg-orange-500 hover:bg-white hover:text-black text-white py-2 rounded transition-colors header-p"
             >
               Explore {{ category.name }}
             </NuxtLink>
@@ -84,50 +84,30 @@
     </section>
 
     <!-- Featured Wildlife Section -->
-    <section class="bg-zinc-950 py-24">
-      <div class="container mx-auto px-4">
+    <section class="bg-zinc-950 py-24 container mx-auto">
+      <div class="px-4">
         <h2 class="text-4xl font-bold text-blue-900 text-center mb-10">
           Featured Wildlife Spotlight
         </h2>
-        <div class="grid md:grid-cols-2 gap-8 items-center">
-          <div class="my-10">
-            <h3 class="text-2xl font-semibold text-blue-800 mb-4">
-              Endangered Species Highlight
-            </h3>
-            <p class="text-gray-400 mb-4">
-              Each month, we shine a light on a critically endangered species,
-              sharing their unique story, challenges, and the conservation
-              efforts working to protect them.
-            </p>
-            <NuxtLink
-              to="/endangered-species"
-              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
-            >
-              Learn More
-            </NuxtLink>
-          </div>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8 items-center">
-          <div class="my-10">
+
+        <div class="grid sm:grid-cols-3 gap-4 items-start mt-10">
+          <div class="bg-zinc-900 p-5 rounded-md h-full">
             <h3 class="text-2xl font-semibold text-blue-800 mb-4">
               Wildlife Conservation News
             </h3>
             <p class="text-gray-400 mb-4">
               Highlight recent success stories or breakthroughs in wildlife
-              conservation efforts, such as the recovery of a species, the
-              establishment of new protected areas, or the implementation of
-              effective conservation policies.
+              conservation efforts, such as the recovery of a species.
             </p>
             <NuxtLink
-              to="/endangered-species"
-              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
+              to="/"
+              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
             >
               Learn More
             </NuxtLink>
           </div>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8 items-center">
-          <div class="my-10">
+
+          <div class="bg-zinc-900 p-5 rounded-md h-full">
             <h3 class="text-2xl font-semibold text-blue-800 mb-4">
               Educational Resources
             </h3>
@@ -137,8 +117,25 @@
               hands-on learning opportunities.
             </p>
             <NuxtLink
-              to="/endangered-species"
-              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
+              to="/"
+              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
+            >
+              Learn More
+            </NuxtLink>
+          </div>
+
+          <div class="bg-zinc-900 p-5 rounded-md h-full">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4">
+              Endangered Species Highlight
+            </h3>
+            <p class="text-gray-400 mb-4">
+              Each month, we shine a light on a critically endangered species,
+              sharing their unique story, challenges, and the conservation
+              efforts working to protect them.
+            </p>
+            <NuxtLink
+              to="/"
+              class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
             >
               Learn More
             </NuxtLink>
@@ -169,7 +166,7 @@
             />
             <button
               type="submit"
-              class="max-w-sm mx-auto bg-orange-400 text-white px-6 py-3 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
+              class="max-w-sm mx-auto bg-orange-500 text-white px-6 py-3 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
             >
               Subscribe
             </button>
@@ -186,7 +183,7 @@ const email = ref("");
 const animalCategories = [
   {
     name: "We are changing",
-    description: "We’re making some huge changes at the zoo…",
+    description: "We’re changing our ways on how we treat our animals",
     link: "/",
     image:
       "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29c6667d13cf66013946_Animal%20Zoo%203.jpg",
@@ -200,7 +197,8 @@ const animalCategories = [
   },
   {
     name: "Support Wildlife",
-    description: "Support wildlife and its inhabitants by visiting our Zoo.",
+    description:
+      "Support wildlife and its inhabitants by not destroying and killing animals.",
     link: "/",
     image:
       "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29e32159be8066d2ce1d_Animal%20Zoo%201.jpg",

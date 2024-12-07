@@ -9,7 +9,9 @@
       </p>
     </section>
 
-    <section class="grid md:grid-cols-2 gap-12 my-20">
+    <section
+      class="sm:grid sm:grid-cols-2 sm:gap-12 my-20 container mx-auto flex flex-col gap-5 justify-center"
+    >
       <div>
         <h2 class="text-3xl font-semibold text-blue-800 mb-6">Our Story</h2>
         <p class="text-gray-400 leading-relaxed mb-4 text-xl">
@@ -24,6 +26,13 @@
           connecting people with the fascinating world of animals through
           detailed, scientifically accurate, and engaging information.
         </p>
+      </div>
+      <div class="">
+        <img
+          src="https://cdn.prod.website-files.com/63f8c395b4c0fa2184b7cc93/6402094ab018cc8695e09314_Animal%20(1).webp"
+          alt="about-image "
+          class="rounded-lg"
+        />
       </div>
       <!-- <div class="flex items-center justify-center">
         <img
@@ -42,7 +51,7 @@
         <div
           v-for="member in teamMembers"
           :key="member.name"
-          class="text-center bg-zinc-800 py-6 px-2 rounded-lg shadow-md"
+          class="text-center bg-zinc-900 py-6 px-2 rounded-lg shadow-md"
         >
           <img
             :src="member.image"
@@ -53,13 +62,13 @@
             {{ member.name }}
           </h3>
           <p class="text-gray-400 mb-2">{{ member.role }}</p>
-          <p class="text-gray-500">{{ member.bio }}</p>
+          <p class="text-gray-300">{{ member.bio }}</p>
         </div>
       </div>
     </section>
 
     <section class="text-center my-20">
-      <h2 class="text-3xl font-semibold text-blue-800 mb-8">
+      <h2 class="text-3xl font-semibold mb-8">
         Our Commitment to Conservation
       </h2>
       <div class="max-w-4xl mx-auto">
@@ -70,9 +79,7 @@
         </p>
         <div class="grid md:grid-cols-3 gap-8 mt-10">
           <div class="bg-zinc-900 p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-bold text-blue-900 mb-4">
-              Environmental Education
-            </h3>
+            <h3 class="text-xl font-bold mb-4">Environmental Education</h3>
             <p class="text-gray-400">
               Raising awareness about wildlife conservation and environmental
               protection.
