@@ -159,17 +159,17 @@
           wildlife, conservation efforts, and fascinating animal discoveries.
         </p>
         <form @submit.prevent="subscribeNewsletter" class="mx-auto">
-          <div class="flex">
+          <div class="flex flex-col gap-2 sm:flex-row max-w-sm mx-auto">
             <input
               type="email"
               v-model="email"
               placeholder="Enter your email"
-              required
-              class="flex-grow px-4 py-3 rounded-l-lg border-2 border-blue-300 focus:outline-none focus:border-blue-500"
+              require
+              class="flex-grow px-4 py-3 rounded-sm focus:outline-none header-p"
             />
             <button
               type="submit"
-              class="bg-blue-600 text-white px-6 py-3 rounded-r-lg hover:bg-blue-700 transition-colors"
+              class="max-w-sm mx-auto bg-orange-400 text-white px-6 py-3 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
             >
               Subscribe
             </button>
