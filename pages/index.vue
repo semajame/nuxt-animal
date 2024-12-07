@@ -181,29 +181,27 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-
 const email = ref("");
 
 const animalCategories = [
   {
     name: "We are changing",
     description: "We’re making some huge changes at the zoo…",
-    link: "/animals/dogs",
+    link: "/",
     image:
       "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29c6667d13cf66013946_Animal%20Zoo%203.jpg",
   },
   {
     name: "Act for Wildlife",
     description: "We won’t stand back and we won’t give up.",
-    link: "/animals/cats",
+    link: "/",
     image:
       "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29d6e73930282acc6bb8_Animal%20Zoo%202.jpg",
   },
   {
     name: "Support Wildlife",
     description: "Support wildlife and its inhabitants by visiting our Zoo.",
-    link: "/animals/birds",
+    link: "/",
     image:
       "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29e32159be8066d2ce1d_Animal%20Zoo%201.jpg",
   },

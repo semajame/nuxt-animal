@@ -10,7 +10,7 @@
             alt="Wild Kingdom Logo"
             class="h-10 w-10 mr-3"
           /> -->
-          <h3 class="text-2xl font-bold text-white">Wild Kingdom</h3>
+          <h3 class="text-xl sm:text-2xl font-bold text-white">Wild Kingdom</h3>
         </NuxtLink>
 
         <div class="relative">

@@ -2,7 +2,7 @@
   <div class="mx-auto px-4 py-12">
     <section class="text-center my-16">
       <h1 class="text-4xl font-bold text-blue-900 mb-6">Wild Kingdom</h1>
-      <p class="max-w-3xl mx-auto text-xl text-gray-400">
+      <p class="max-w-3xl mx-auto text-xl text-gray-400 leading-relaxed">
         We are passionate about bringing the incredible world of animals closer
         to you. Our mission is to educate, inspire, and promote conservation
         through comprehensive and engaging animal facts.
@@ -12,14 +12,14 @@
     <section class="grid md:grid-cols-2 gap-12 my-20">
       <div>
         <h2 class="text-3xl font-semibold text-blue-800 mb-6">Our Story</h2>
-        <p class="text-gray-400 leading-relaxed mb-4 text-md">
+        <p class="text-gray-400 leading-relaxed mb-4 text-xl">
           Wild Kingdom began with a simple dream: to create a comprehensive
           platform that celebrates the incredible diversity of animal life on
           our planet. Founded by a team of wildlife enthusiasts and conservation
           advocates, we believe that understanding leads to appreciation, and
           appreciation leads to protection.
         </p>
-        <p class="text-gray-400 leading-relaxed text-md">
+        <p class="text-gray-400 leading-relaxed text-xl">
           What started as a small project has grown into a global resource,
           connecting people with the fascinating world of animals through
           detailed, scientifically accurate, and engaging information.
@@ -34,7 +34,7 @@
       </div> -->
     </section>
 
-    <section class="p-12 mb-16">
+    <section class="px-2 py-12 mb-16">
       <h2 class="text-3xl font-semibold text-blue-800 text-center mb-8">
         Our Team
       </h2>
@@ -42,7 +42,7 @@
         <div
           v-for="member in teamMembers"
           :key="member.name"
-          class="text-center bg-zinc-800 p-6 rounded-lg shadow-md"
+          class="text-center bg-zinc-800 py-6 px-2 rounded-lg shadow-md"
         >
           <img
             :src="member.image"

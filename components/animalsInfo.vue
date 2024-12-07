@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto p-4 container">
+  <div class="mx-auto px-2 py-4 container">
     <div class="my-10">
       <h2 class="text-center text-4xl mb-5 text-blue-900 font-bold">
         Search for Animals
