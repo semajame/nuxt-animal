@@ -22,6 +22,10 @@ export default defineNuxtConfig({
             "Wild Kingdom is a wildlife website, where you can search for animal facts.",
         },
       ],
+
+      htmlAttrs: {
+        lang: "en",
+      },
     },
   },
 });
