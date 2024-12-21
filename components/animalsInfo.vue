@@ -16,7 +16,7 @@
         />
         <button
           type="submit"
-          class="ml-2 px-4 py-2 bg-orange-400 text-white rounded-sm"
+          class="ml-2 px-4 py-2 bg-orange-500 text-white rounded-sm"
         >
           Search
         </button>
