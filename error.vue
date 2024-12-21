@@ -56,6 +56,19 @@
 </template>
 
 <script setup>
+import { useHead } from "#app";
+
+useHead({
+  title: "Error - Wild Kingdom", // Set the dynamic page title
+  meta: [
+    {
+      hid: "description", // Use `hid` to ensure meta tags are uniquely identified
+      name: "description",
+      content: "Error Page, the page youre looking for does not exist. ", // Add a meaningful description
+    },
+  ],
+});
+
 defineProps({
   statusCode: {
     type: Number,
