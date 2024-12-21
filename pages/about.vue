@@ -103,6 +103,21 @@
 </template>
 
 <script setup>
+import { useHead } from "#app";
+
+// Set up meta tags for the page
+useHead({
+  title: "About - Wild Kingdom", // Set the dynamic page title
+  meta: [
+    {
+      hid: "description", // Use `hid` to ensure meta tags are uniquely identified
+      name: "description",
+      content:
+        "About Page, where our story started and about, team and mission. ", // Add a meaningful description
+    },
+  ],
+});
+
 const teamMembers = [
   {
     name: "Emma Rodriguez",

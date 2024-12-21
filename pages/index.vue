@@ -24,7 +24,7 @@
           </NuxtLink>
           <NuxtLink
             to="/animals"
-            class="bg-orange-400 text-white px-6 py-3 rounded-sm text-sm hover:bg-white hover:text-black font-bold transition-colors"
+            class="bg-orange-600 text-white px-6 py-3 rounded-sm text-sm hover:bg-white hover:text-black font-bold transition-colors"
           >
             SEARCH ANIMALS
           </NuxtLink>
@@ -100,7 +100,7 @@
               efforts working to protect them.
             </p>
             <NuxtLink
-              to="/endangered-species"
+              to="/"
               class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
             >
               Learn More
@@ -119,7 +119,7 @@
               effective conservation policies.
             </p>
             <NuxtLink
-              to="/endangered-species"
+              to="/"
               class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
             >
               Learn More
@@ -137,7 +137,7 @@
               hands-on learning opportunities.
             </p>
             <NuxtLink
-              to="/endangered-species"
+              to="/"
               class="inline-block bg-orange-500 text-white px-5 py-1 rounded-sm hover:bg-transparent transition-colors header-p"
             >
               Learn More
@@ -169,7 +169,7 @@
             />
             <button
               type="submit"
-              class="max-w-sm mx-auto bg-orange-400 text-white px-6 py-3 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
+              class="max-w-sm mx-auto bg-orange-600 text-white px-6 py-3 rounded-sm hover:bg-white hover:text-black transition-colors header-p"
             >
               Subscribe
             </button>
