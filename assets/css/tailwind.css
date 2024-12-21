@@ -6,7 +6,7 @@
 
 @layer base {
   .background {
-    background-image: url("https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63fe003a8dc4be0967d7d42f_Animals%201%20(1).jpg");
+    background-image: url("/public/assets/img/cheetah.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,14 +18,14 @@
   }
 
   .stay-background {
-    background-image: url("https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63fcaa388595bf42d9a4e742_Animals%2010.jpg");
+    background-image: url("/public/assets/img/koalla.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .our-mission {
-    background-image: url("https://cdn.prod.website-files.com/63f8c395b4c0fa2184b7cc93/63fdd7fc8f3f2e50a4b920dc_Photo%201%20(1)%20(1)%20(1).webp");
+    background-image: url("/public/assets/img/lizard.webp");
     background-position: contain;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,10 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
 
   components: true,
   compatibilityDate: "2024-11-01",
   ssr: true, // Ensure server-side rendering is enabled
+
+  image: {
+    // Options,
+  },
 
   devtools: { enabled: true },
 

@@ -42,7 +42,7 @@
           class="shadow-lg rounded-lg bg-zinc-900"
         >
           <div class="w-full">
-            <img
+            <NuxtImg
               :src="category.image"
               alt="animal image"
               class="h-48 w-full rounded-lg object-cover"
@@ -185,23 +185,20 @@ const animalCategories = [
     name: "We are changing",
     description: "We’re changing our ways on how we treat our animals",
     link: "/",
-    image:
-      "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29c6667d13cf66013946_Animal%20Zoo%203.jpg",
+    image: "/assets/gorilla.webp",
   },
   {
     name: "Act for Wildlife",
     description: "We won’t stand back and we won’t give up.",
     link: "/",
-    image:
-      "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29d6e73930282acc6bb8_Animal%20Zoo%202.jpg",
+    image: "/assets/deer.webp",
   },
   {
     name: "Support Wildlife",
     description:
       "Support wildlife and its inhabitants by not destroying and killing animals.",
     link: "/",
-    image:
-      "https://cdn.prod.website-files.com/63f8c396b4c0fa3d9fb7cca5/63ff29e32159be8066d2ce1d_Animal%20Zoo%201.jpg",
+    image: "/assets/cow.webp",
   },
 ];
 
