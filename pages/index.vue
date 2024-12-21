@@ -185,20 +185,20 @@ const animalCategories = [
     name: "We are changing",
     description: "We’re changing our ways on how we treat our animals",
     link: "/",
-    image: "/assets/gorilla.webp",
+    image: "/assets/img/gorilla.webp",
   },
   {
     name: "Act for Wildlife",
     description: "We won’t stand back and we won’t give up.",
     link: "/",
-    image: "/assets/deer.webp",
+    image: "/assets/img/deer.webp",
   },
   {
     name: "Support Wildlife",
     description:
       "Support wildlife and its inhabitants by not destroying and killing animals.",
     link: "/",
-    image: "/assets/cow.webp",
+    image: "/assets/img/cow.webp",
   },
 ];
 
